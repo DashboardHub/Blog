@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Dashboard Hub
+tagline:          'Your World in One Place'
+description:      'Your World in One Place'
+url:              http://blog.dashboardhub.io
+baseurl:          /
+
+author:
+  name:           'Eddie Jaoude'
+  url:            https://blog.dashboardhub.io
+
+paginate:         5
+
+# Custom vars
+version:          0.1
+
+github:
+  repo:           https://github.com/Dashboardhub/PipelineDashboard
