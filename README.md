@@ -7,7 +7,7 @@
 
 Screenshot
 
-![Dashboard Hub Blog screenshot](assets/screenshots/blog.png)
+![Dashboard Hub Blog screenshot](/assets/readme/blog.png)
 
 
 ---
