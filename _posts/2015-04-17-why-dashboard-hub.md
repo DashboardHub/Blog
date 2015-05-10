@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why DashboardHub was born?
+comments: true
 ---
 
 [DashboardHub](http://dashboardhub.io) was created to fill a gap in a **Developer's** workflow. As **Developers** we have lots of great tools to help us to do our job and to do it well. However, in our fast paced environments we do not get time to log into here and there, until someone points a problem out:
