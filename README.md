@@ -8,3 +8,12 @@
 Screenshot
 
 ![Dashboard Hub Blog screenshot](assets/screenshots/blog.png)
+
+
+---
+
+## Installation
+
+* Install [Jekyll](http://jekyllrb.com)
+* Clone this repo
+* Start Jekyll server `jekyll serve`
