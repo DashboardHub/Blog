@@ -17,7 +17,7 @@ Following the feedback above, we then log into **CI** or in the **Metics** Appli
 
 The Pipeline Dashboard Proof of Concept was done in a couple of days and launched to get feedback from the *community*. Below is a screenshot of what it looked like:
 
-![Proof of Concept Dashboard](assets/screenshots/proof-of-concept.png)
+![Proof of Concept Dashboard](/assets/screenshots/proof-of-concept.png)
 
 ---
 
@@ -25,7 +25,7 @@ The Pipeline Dashboard Proof of Concept was done in a couple of days and launche
 
 Now this has moved onto a **Prototype** with more functionality, *Github OAuth login* to allow one to choose a **Dashboard Theme** and save, then share their **Dashboard**(s) while monitoring their statistics, search,
 
-![Prototype of Concept Dashboard](assets/screenshots/prototype.png)
+![Prototype of Concept Dashboard](/assets/screenshots/prototype.png)
 
 ---
 
