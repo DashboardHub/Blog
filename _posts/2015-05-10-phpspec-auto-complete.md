@@ -11,7 +11,7 @@ What is **PHPSpec**, from their documentation:
 
 > BDD is a technique used at story level and spec level. phpspec is a tool for use at the spec level or SpecBDD. The technique is to first use a tool like phpspec to describe the behaviour of an object you are about to write. Next you write just enough code to meet that specification and finally you refactor this code.
 
-This is not an introduction to **PHPSpec**, this assumes you already know & use **PHPSpec**. When using **PHPSpec** you will notice that because of the *magic* the Class Under Test (CUT) does not auto complete. This is easily fixed with using **PHPStorm's** *Mixin* Annotation (`@mixin \Class\Name`).
+This is not an introduction to **PHPSpec**, this assumes you already know and use **PHPSpec**. When using **PHPSpec** you will notice that because of the *magic* the Class Under Test (CUT) does not auto complete. This is easily fixed with using **PHPStorm's** *Mixin* Annotation (`@mixin \Class\Name`).
 
 Doing this will turn this screenshot:
 
