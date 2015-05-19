@@ -33,7 +33,7 @@ Thus giving the usual IDE intellisense / code completion on the CUT with **PHPSp
 
 There is yet to be a clean solution to this.
 
-The best solution to date for this is to put a *mixin* on the CUT (class under test) to a template class which contains the **PHPSpec** mthods. Hopefully a better solution will present itself in the near future.
+The best solution to date for this is to put a *mixin* on the CUT (class under test) to a template class which contains the **PHPSpec** methods. Hopefully a better solution will present itself in the near future.
 
 Simple example (namespaces removed for simplicity):
 
