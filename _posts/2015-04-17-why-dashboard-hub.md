@@ -23,7 +23,7 @@ The Pipeline Dashboard Proof of Concept was done in a couple of days and launche
 
 ---
 
-## Dashboard Hub (aka Pipeline Dashboard) current State
+## DashboardHub (aka Pipeline Dashboard) current State
 
 Now this has moved onto a **Prototype** with more functionality, *Github OAuth login* to allow one to choose a **Dashboard Theme** and save, then share their **Dashboard**(s) while monitoring their statistics, search,
 
