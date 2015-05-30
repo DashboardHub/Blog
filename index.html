@@ -14,7 +14,7 @@ title: Home
 
     <p><i>{{ post.summary }}</i></p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }} by {{ post.author }}</span>
   </div>
   {% endfor %}
 </div>
