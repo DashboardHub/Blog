@@ -2,7 +2,7 @@
 layout: post
 title: Auto Complete with PHPSpec
 summary: Unit testing with PHPSpec is GREAT! Unfortunately it is missing some nice to haves
-author: Eddie Jaoude
+author: Eddie Jaoude <a href="https://github.com/eddiejaoude"><i class="fa fa-github-square"></i></a> <a href="https://twitter.com/eddiejaoude"><i class="fa fa-twitter-square"></i></a>
 comments: true
 ---
 

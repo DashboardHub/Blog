@@ -2,7 +2,7 @@
 layout: post
 title: DashboardHub and Ascii Art fun
 summary: Having fun with Ascii Art and DashboardHub
-author: Eddie Jaoude
+author: Eddie Jaoude <a href="https://github.com/eddiejaoude"><i class="fa fa-github-square"></i></a> <a href="https://twitter.com/eddiejaoude"><i class="fa fa-twitter-square"></i></a>
 comments: true
 ---
 
