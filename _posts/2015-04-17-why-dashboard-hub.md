@@ -2,6 +2,7 @@
 layout: post
 title: Why was the DashboardHub created?
 summary: The missing piece of the puzzle DashboardHub is trying to solve
+author: Eddie Jaoude
 comments: true
 ---
 
