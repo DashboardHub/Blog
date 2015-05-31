@@ -9,6 +9,8 @@ layout: default
   {{ content }}
 </div>
 
+{% include share-page.html %}
+
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
@@ -24,8 +26,6 @@ layout: default
     {% endfor %}
   </ul>
 </div>
-
-{% include share-page.html %}
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
