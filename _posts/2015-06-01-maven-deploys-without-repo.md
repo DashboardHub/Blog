@@ -20,7 +20,7 @@ Typically, maven artifacts are made available in this way by:
 So what did we choose? **None of them**.
 
 - Option 1 involves signing up with Sonatype for access (something that is possible in the future once we become more stable and established)
-- Option 2 is too complicated and too much of an admin/cost/time sync.
+- Option 2 is too complicated and too much of an admin/cost/time sink.
 - Option 3 is just a pain and pretty inflexible - it's not how maven is meant to be used
 
 ## Tell us what you actually did damnit!
