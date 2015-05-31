@@ -30,7 +30,7 @@ The aim of the licence is to set out the responsibilities which need to be adher
 
 This is straightforward to determine when there is a small project team employed by one copyright holder and each contributor's contract states that the work is not their own and belongs to the copyright holder. However if your project team's contributors are a mix of contractors, those who have donated their code or whose code has been copied – you may not have outright copyright clearance.
 
-The matter of claiming that a code is your own is not just about ethics, but can cross into the realm of legal sanctions if you cannot provide that you own this code.
+The matter of claiming that a code is your own is not just about ethics, but can cross into the realm of legal sanctions if you cannot provide proof that you own this code.
 
 #### Step 3:
 
