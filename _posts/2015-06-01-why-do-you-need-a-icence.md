@@ -2,7 +2,7 @@
 layout: post
 title: Why do you need a Licence?
 summary: Making your code available as open source is not just about making a remark on your web page
-author: Sara Jaoude <a href="https://github.com/sarajaoude"><i class="fa fa-github-square"></i></a> AKA LadyLaw
+author: Sara Jaoude <a href="https://github.com/sarajaoude"><i class="fa fa-github-square"></i></a> AKA LadyLaw2Geek
 comments: true
 ---
 
