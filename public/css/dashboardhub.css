@@ -27,3 +27,26 @@
      border-bottom: 1px dashed #fff;
  }
 
+.post {
+    margin-bottom: 2em;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1.post-title {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+.related-posts h3 {
+    font-size: 1rem;
+}
