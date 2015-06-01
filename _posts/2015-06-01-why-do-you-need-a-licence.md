@@ -18,13 +18,13 @@ The aim of the licence is to set out the responsibilities which need to be adher
 
 ## Here are a few simple steps to consider:
 
-#### Step 1:
+### Step 1:
 
 **Choose the most appropriate licence** under which to release the code.
 
 *(An overview of the different licences available will be addressed in a future blog post.)*
 
-####  Step 2:
+###  Step 2:
 
 **Are you legally entitled to release your code?** Can you prove that your code is exclusively your intellectual property and you have the necessary rights to license it?
 
@@ -32,13 +32,13 @@ This is straightforward to determine when there is a small project team employed
 
 The matter of claiming that a code is your own is not just about ethics, but can cross into the realm of legal sanctions if you cannot provide proof that you own this code.
 
-#### Step 3:
+### Step 3:
 
 **Make the licence visible** to those looking at your project.
 
 "Visibility" is not just about making a quick reference on your project page that your code is available under a specified licence.
 
-#### As a minimum:
+## As a minimum:
 
 * state which licence is applied (preferably on your project page and your downloads page)
 * provide the full text of the licence on your project page
@@ -47,4 +47,4 @@ The matter of claiming that a code is your own is not just about ethics, but can
 * provide the full text of the licence in the root directory of your non-source project distributions
 
 
-#### I appreciate that the matter of licensing is somewhat of a minefield. With most projects having third party dependencies, a developer whose code includes libraries from another project must comply with the requirements of that licence, but also make sure it is compatible with your own licence. However licensing should not be something to fear, but a tool to make sure that those contributing to or downloading your code know exactly what they are allowed to do to ensure you retain control of your project.
+**I appreciate that the matter of licensing is somewhat of a minefield. With most projects having third party dependencies, a developer whose code includes libraries from another project must comply with the requirements of that licence, but also make sure it is compatible with your own licence. However licensing should not be something to fear, but a tool to make sure that those contributing to or downloading your code know exactly what they are allowed to do to ensure you retain control of your pro.**
