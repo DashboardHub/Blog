@@ -30,3 +30,5 @@ From [Wikipedia](http://en.wikipedia.org/wiki/ASCII_art)
 
 Full **DashboardHub** logo image converted to **ASCII**
 ![](/assets/2015-05-28-dashboard-hub-ascii-art-fun/dashboardhub-ascii.png)
+
+---
