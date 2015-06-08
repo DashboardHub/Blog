@@ -35,3 +35,5 @@ Now this has moved onto a **Prototype** with more functionality, *Github OAuth l
 To keep up-to-date please follow us on [Twitter](https://twitter.com/dashboardhub)
 
 And feedback and/or suggestions please log on [Github Issues](https://github.com/DashboardHub/PipelineDashboard/issues)
+
+---
