@@ -71,3 +71,5 @@ class Template
 }
 ```
 This is still not ideal, because now your Source Code Classes have auto complete to the **PHPSpec** template - so now you have it in your Specs but also in your Source Code...the world is not perfect.
+
+---
