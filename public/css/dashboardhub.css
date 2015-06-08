@@ -50,3 +50,13 @@ h3 {
 .related-posts h3 {
     font-size: 1rem;
 }
+
+.content img {
+    border: 1px solid #ccc;
+    -moz-box-shadow: 5px 5px 5px #ccc;
+    -webkit-box-shadow: 5px 5px 5px #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+}
