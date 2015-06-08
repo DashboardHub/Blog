@@ -43,3 +43,5 @@ It's a great project, and a useful way for smaller teams or open source projects
 To keep up-to-date please follow us on [Twitter](https://twitter.com/dashboardhub)
 
 And feedback and/or suggestions please log on [Github Issues](https://github.com/DashboardHub/PipelineDashboard/issues)
+
+---
