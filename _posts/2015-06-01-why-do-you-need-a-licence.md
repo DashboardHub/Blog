@@ -48,3 +48,5 @@ The matter of claiming that a code is your own is not just about ethics, but can
 
 
 **I appreciate that the matter of licensing is somewhat of a minefield. With most projects having third party dependencies, a developer whose code includes libraries from another project must comply with the requirements of that licence, but also make sure it is compatible with your own licence. However licensing should not be something to fear, but a tool to make sure that those contributing to or downloading your code know exactly what they are allowed to do to ensure you retain control of your pro.**
+
+---
