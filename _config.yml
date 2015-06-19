@@ -12,6 +12,7 @@ tagline:          'Your World in One Place'
 description:      'Your World in One Place'
 url:              http://blog.dashboardhub.io
 baseurl:          /
+twitter_username: 'dashboardhub'
 
 author:
   name:           'Eddie Jaoude'
