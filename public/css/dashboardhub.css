@@ -39,6 +39,15 @@ h1.post-title {
     font-size: 1.5rem;
 }
 
+h1.post-title i.fa-chain-broken {
+    color: #ff6600;
+}
+
+span.post-alert {
+    color: #ff6600;
+    font-size: small;
+}
+
 h2 {
     font-size: 1.2rem;
 }
