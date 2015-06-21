@@ -60,3 +60,13 @@ h3 {
     -webkit-border-radius:15px;
     border-radius:15px;
 }
+
+.alert {
+    text-align: center;
+    font-size: larger;
+    border: 1px solid #ff6600;
+    color: #ff6600;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffad76;
+}

@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.alert %}
+<div class="alert">
+    {{ page.alert }}
+</div>
+{% endif %}
+
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
     <p><i>{{ page.summary }}</i></p>
