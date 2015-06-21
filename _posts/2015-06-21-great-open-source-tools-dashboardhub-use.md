@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DRAFT - Great Open Source tools DashboardHub use
+title: Great Open Source tools DashboardHub use
 summary: We use a lot of Open Source tools and we want to say 'Thank You'
 author: Eddie Jaoude <a href="https://github.com/eddiejaoude"><i class="fa fa-github-square"></i></a> <a href="https://twitter.com/eddiejaoude"><i class="fa fa-twitter-square"></i></a>, Simon Casey <a href="https://github.com/simoncasey"><i class="fa fa-github-square"></i></a> <a href="https://twitter.com/simoncasey1982"><i class="fa fa-twitter-square"></i></a>
 comments: true
