@@ -30,7 +30,7 @@ Our team works fully remotely, therefore communications and collaboration are ke
 
 ### Services we use
 
-* GitHub (no explaination needed here, just pure awesomeness)
+* GitHub (no explanation needed here, just pure awesomeness)
 * Zoho - email hosting
 * Doorbell.io - user feedback
 
@@ -47,9 +47,10 @@ Our team works fully remotely, therefore communications and collaboration are ke
 
 #### Java
 
-* Spring Boot
-* jitpack.io
-* intellij idea
+* [Spring Boot](http://projects.spring.io/spring-boot/) - all the features of the Spring platform, without all the config hassle
+* [JitPack.io](https://jitpack.io/) - A novel way to use GitHub as your maven/gradle repository
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/) - without doubt the best IDE for just about any language
+* [JSONServer / jsonplaceholder](https://github.com/typicode/json-server) - handy tool to fake an API for prototyping
 
 #### Clientside
 
@@ -68,5 +69,5 @@ Our team works fully remotely, therefore communications and collaboration are ke
 ### DevOPs (a current buzz word, I am still waiting for *DevTestOps* to take off)
 
 * Digital Ocean - simple & fast hosting
-* Dokku - private Herouk using Docker (baby brother of DEIS)
+* Dokku - private Heroku using Docker (baby brother of DEIS)
 * Git - version control and deployment
