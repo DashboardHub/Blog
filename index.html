@@ -8,14 +8,19 @@ title: Home
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
-        {{ post.title }}
+          {% if post.alert %}<i class="fa fa-chain-broken"></i>{% endif %}
+          {{ post.title }}
       </a>
     </h1>
 
     <p><i>{{ post.summary }}</i></p>
 
     <span class="post-date">{{ post.date | date_to_string }} by {{ post.author }}</span>
+      {% if post.alert %}
+      <span class="post-alert">{{ post.alert }}</span>
+      {% endif %}
   </div>
+    <hr />
   {% endfor %}
 </div>
 
