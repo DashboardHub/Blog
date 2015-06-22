@@ -17,22 +17,21 @@ Our team works fully remotely, therefore communications and collaboration are ke
 
 * [Gitter.im](gitter.im) - chat room via the browser
 * [Appear.in](appear.in) - video conferencing, includes desktop sharing, all via the browser
-*
 
 ---
 
 ### Static Code (blog, website etc)
 
-* GitHub pages
-* Jekyll
+* [GitHub pages](https://pages.github.com) - hosting static pages
+* [Jekyll](http://jekyllrb.com) - markdown to html blogging platform
 
 ---
 
 ### Services we use
 
-* GitHub (no explanation needed here, just pure awesomeness)
-* Zoho - email hosting
-* Doorbell.io - user feedback
+* [GitHub](https://github.com) (no explanation needed here, just pure awesomeness)
+* [Zoho](https://www.zoho.com) - email hosting
+* [Doorbell](https://doorbell.io/home) - user feedback
 
 ---
 
@@ -40,10 +39,10 @@ Our team works fully remotely, therefore communications and collaboration are ke
 
 #### PHP
 
-* PHPStorm
-* Composer
-* Doctrine
-* Symfony2
+* [PHPStorm](https://doorbell.io/home) - PHP IDE
+* [Composer](https://getcomposer.org) - Dependency Manager for PHP
+* [Doctrine](http://www.doctrine-project.org) - ORM
+* [Symfony2](http://symfony.com) - MVC Framework
 
 #### Java
 
@@ -54,20 +53,19 @@ Our team works fully remotely, therefore communications and collaboration are ke
 
 #### Clientside
 
-* AngularJS
-* Twitter Bootstrap
-* FontAwesome
-
+* [AngularJS](https://angularjs.org)
+* [Twitter Bootstrap](http://getbootstrap.com)
+* [FontAwesome](http://fontawesome.io/)
 
 #### Friends
 
-* MySQL - database
-* ElasticSearch - search and analytics
+* [MySQL](http://www.mysql.com)- database
+* [ElasticSearch](https://www.elastic.co) - search and analytics
 
 ---
 
 ### DevOPs (a current buzz word, I am still waiting for *DevTestOps* to take off)
 
-* Digital Ocean - simple & fast hosting
-* Dokku - private Heroku using Docker (baby brother of DEIS)
-* Git - version control and deployment
+* [Digital Ocean](https://www.digitalocean.com) - simple & fast hosting
+* [Dokku](http://progrium.viewdocs.io/dokku/) - private Heroku using Docker (baby brother of DEIS)
+* [Git](https://git-scm.com) - version control and deployment
