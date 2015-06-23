@@ -22,12 +22,16 @@ Our team works fully remotely, therefore communications and collaboration are ke
 
 ### Static Code (blog, website etc)
 
+Not all websites need to be written in PHP or Java etc. Static informational websites (eg. blogs) are best suited to keeping things simple. Jekyll and GitHub pages are perfect for this. Write pages in Markdown and host on GitHub - continuous delivery for free.
+
 * [GitHub pages](https://pages.github.com) - hosting static pages
 * [Jekyll](http://jekyllrb.com) - markdown to html blogging platform
 
 ---
 
 ### Services we use
+
+There is no point reinventing the wheel. We could host our own Git repo, manage emails, build user feedback etc, but there is no point, this is already done well for us and very easy to setup.
 
 * [GitHub](https://github.com) (no explanation needed here, just pure awesomeness)
 * [Zoho](https://www.zoho.com) - email hosting
@@ -36,6 +40,8 @@ Our team works fully remotely, therefore communications and collaboration are ke
 ---
 
 ### Our Micro Service and Friends (main part of DashboardHub)
+
+The DashboardHub architecture is split into **micro services**, this allows for high flexibility.
 
 #### PHP
 
@@ -64,7 +70,7 @@ Our team works fully remotely, therefore communications and collaboration are ke
 
 ---
 
-### DevOPs (a current buzz word, I am still waiting for *DevTestOps* to take off)
+### DevOPs (a current buzz word, I am still waiting for *DevTestOps* or *DevTest* to take off)
 
 * [Digital Ocean](https://www.digitalocean.com) - simple & fast hosting
 * [Dokku](http://progrium.viewdocs.io/dokku/) - private Heroku using Docker (baby brother of DEIS)
