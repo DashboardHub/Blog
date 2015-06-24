@@ -39,7 +39,7 @@ There is no point reinventing the wheel. We could host our own Git repo, manage 
 
 ---
 
-### Our Micro Services (main part of DashboardHub) and the things we use to build them
+### Our Micro Services and the things we use to build them
 
 The DashboardHub architecture is split into **micro services**, this allows for high flexibility and scalability.
 
