@@ -9,7 +9,7 @@ alert: DRAFT  / WORK IN PROGRESS
 
 Here at **DashboardHub** we use a lot of **Open Source** or free tools and libraries! That's why we not only contribute back to these tools in various ways ([ways to support Open Source tools](/2015/06/08/supporting-open-source-projects/)), but also give our Applications & Tools back to the community as **Open Source**.
 
-Lets break this down into sections (which we'll try update as we use more cool stuff):
+Lets break this down into sections (which we'll try to update as we use more cool stuff):
 
 ### Communication
 
