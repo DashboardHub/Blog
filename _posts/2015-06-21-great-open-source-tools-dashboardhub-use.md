@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Great Open Source tools DashboardHub use
-summary: We use a lot of Open Source tools and we want to say 'Thank You'
+title: Great Open Source tools that DashboardHub uses
+summary: We use a lot of tools and we want to say 'Thank You'
 author: Eddie Jaoude <a href="https://github.com/eddiejaoude"><i class="fa fa-github-square"></i></a> <a href="https://twitter.com/eddiejaoude"><i class="fa fa-twitter-square"></i></a>, Simon Casey <a href="https://github.com/simoncasey"><i class="fa fa-github-square"></i></a> <a href="https://twitter.com/simoncasey1982"><i class="fa fa-twitter-square"></i></a>
 comments: true
 alert: DRAFT  / WORK IN PROGRESS
 ---
 
-Here at **DashboardHub** we use a lot of **Open Source** tools and libraries! Thats why we not only contribute back to these tools in various ways ([ways to support Open Source tools](/2015/06/08/supporting-open-source-projects/)) but also give our Applications & Tools back to the community as **Open Source**.
+Here at **DashboardHub** we use a lot of **Open Source** or free tools and libraries! That's why we not only contribute back to these tools in various ways ([ways to support Open Source tools](/2015/06/08/supporting-open-source-projects/)), but also give our Applications & Tools back to the community as **Open Source**.
 
-Lets break this down into sections:
+Lets break this down into sections (which we'll try update as we use more cool stuff):
 
 ### Communication
 
@@ -31,7 +31,7 @@ Not all websites need to be written in PHP or Java etc. Static informational web
 
 ### Services we use
 
-There is no point reinventing the wheel. We could host our own Git repo, manage emails, build user feedback etc, but there is no point, this is already done well for us and very easy to setup.
+There is no point reinventing the wheel. We could host our own Git repo, manage emails, build user feedback etc, but there is no point as the following people do a much better job than we ever could.
 
 * [GitHub](https://github.com) (no explanation needed here, just pure awesomeness)
 * [Zoho](https://www.zoho.com) - email hosting
@@ -39,9 +39,9 @@ There is no point reinventing the wheel. We could host our own Git repo, manage 
 
 ---
 
-### Our Micro Service and Friends (main part of DashboardHub)
+### Our Micro Services (main part of DashboardHub) and the things we use to build them
 
-The DashboardHub architecture is split into **micro services**, this allows for high flexibility.
+The DashboardHub architecture is split into **micro services**, this allows for high flexibility and scalability.
 
 #### PHP
 
@@ -63,7 +63,7 @@ The DashboardHub architecture is split into **micro services**, this allows for 
 * [Twitter Bootstrap](http://getbootstrap.com)
 * [FontAwesome](http://fontawesome.io/)
 
-#### Friends
+#### Backend
 
 * [MySQL](http://www.mysql.com)- database
 * [ElasticSearch](https://www.elastic.co) - search and analytics
