@@ -75,3 +75,9 @@ The DashboardHub architecture is split into **micro services**, this allows for 
 * [Digital Ocean](https://www.digitalocean.com) - simple & fast hosting
 * [Dokku](http://progrium.viewdocs.io/dokku/) - private Heroku using Docker (baby brother of DEIS)
 * [Git](https://git-scm.com) - version control and deployment
+
+---
+
+## Conclusion
+
+The technologies listed above is what we use at the moment, however, this will no doubt change, as new technologies appear and we discover others or our requirements change. We would like to **Thank** them in the great work they are doing. Hopefully one day **DashboardHub** will be on your list.
