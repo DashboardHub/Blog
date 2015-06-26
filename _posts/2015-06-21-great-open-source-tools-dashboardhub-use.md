@@ -35,7 +35,7 @@ There is no point reinventing the wheel. We could host our own Git repo, manage 
 
 * [GitHub](https://github.com) (no explanation needed here, just pure awesomeness)
 * [Zoho](https://www.zoho.com) - email hosting
-* [Doorbell](https://doorbell.io/home) - user feedback
+* [Doorbell](https://doorbell.io) - user feedback
 
 ---
 
