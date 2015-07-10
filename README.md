@@ -30,3 +30,9 @@ author: Eddie Jaoude <a href="https://github.com/eddiejaoude"><i class="fa fa-gi
 comments: true
 ---
 ```
+
+and optional
+
+```
+alert: DRAFT  / WORK IN PROGRESS
+```
