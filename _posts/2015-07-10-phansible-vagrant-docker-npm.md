@@ -7,13 +7,13 @@ comments: true
 alert: DRAFT  / WORK IN PROGRESS
 ---
 
-I have used quite a few provisionings tools in the past from Puppet, Chef, Saltstack etc and more recently Docker. Each one has its pros and cons. Docker was working great until I upgrade my boot2docker vm and all kept failing even after a re-initialise each time. This made me realise that I should provision my own Docker VM for my Mac.
+I have used quite a few provisionings tools in the past from Puppet, Chef, SaltStack etc. But more recently using containers with Docker. Each one has its pros and cons. Docker was working great until I upgraded my boot2docker VM and kept failing even after a re-initialise each time to do with keys - many others had the same issue. In my search for a solution that worked, it was recommended not to use boot2docker and provision a VM oneself; makes sense. This made me realise that I should provision my own Docker VM for my Mac, that I can recreate if anything goes wrong.
 
-I heard lots of good things about Ansible from the PHP community and this is one I had not tried. Knowing of Phansible, I thought it would be a good starting point. And it was a great starting point! I got a development environment VM up and running very quickly with the basics: PHP, MySQL, Apache2 (or Nginx).
+I heard lots of good things about Ansible from the PHP community and this is one I had not tried. Knowing of Phansible from the community, I thought it would be a good starting point. And it was a great starting point! I got a development environment VM up and running very quickly with the basics: PHP, MySQL, Apache2 (or Nginx). With access to the webserver on `http://192.168.33.99/` and mysql on `192.168.33.99:3306`, elasticsearch on `192.168.33.99:9200` etc.
 
-But for me (and probably most) that was not enough. I needed Docker & npm. After a quick search, Ansible has modules for these.
+But for me (and probably most) that was not enough. I needed Docker & npm. After a quick search, Ansible has modules for these too.
 
-## NPM dependencies
+## npm dependencies
 
 For **npm**, it is as simple as:
 
@@ -43,3 +43,15 @@ And for **Docker**, it is:
     ports:
       - "6379:6379"
 ```
+
+*Now we are cooking on gas!*
+
+Phansible allowed me to install **xdebug** and **blackfire** with ease, so now I can step through my code for debugging and profile my application for performance improvements.
+
+## Custimising system wide apt packages
+
+Edit `ansible/vars/all.yml` and add to collect on line 4, looks like packages: [vim, htop, iotop]
+
+## Swap from Apache2 to Nginx (or vice versa)
+
+Edit `ansible/playbook.yml` comment/uncomment roles collection.
