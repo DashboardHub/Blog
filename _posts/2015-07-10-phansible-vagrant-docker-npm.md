@@ -52,6 +52,20 @@ Phansible allowed me to install **xdebug** and **blackfire** with ease, so now I
 
 Edit `ansible/vars/all.yml` and add to collect on line 4, looks like packages: [vim, htop, iotop]
 
-## Swap from Apache2 to Nginx (or vice versa)
+## Customise what roles are installed
+
+eg. Swap from Apache2 to Nginx (or vice versa)
 
 Edit `ansible/playbook.yml` comment/uncomment roles collection.
+
+## Profiling with Blackfire
+
+Add your credentials to `ansible/vars/all.yml` and install the **Blackfire** chrome extension.
+
+![Profiling with Blackfire](/assets/2015-07-10-phansible-vagrant-docker-npm/blackfire-profiling.mov.gif)
+
+---
+
+Full code can be found on [Github repo](https://github.com/eddiejaoude/vagrant-ansible-docker)
+
+Suggestions / contributions etc all welcome.
