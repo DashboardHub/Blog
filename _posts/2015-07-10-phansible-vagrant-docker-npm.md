@@ -5,6 +5,7 @@ summary: Phansible with vagrant, ansible, docker and npm
 author: Eddie Jaoude <a href="https://github.com/eddiejaoude"><i class="fa fa-github-square"></i></a> <a href="https://twitter.com/eddiejaoude"><i class="fa fa-twitter-square"></i></a>
 comments: true
 alert: DRAFT  / WORK IN PROGRESS
+tags: phansible, php, provisioning, ansible, docker, npm, blacfire
 ---
 
 I have used quite a few provisionings tools in the past from Puppet, Chef, SaltStack etc. But more recently using containers with Docker. Each one has its pros and cons. Docker was working great until I upgraded my boot2docker VM and kept failing even after a re-initialise each time to do with keys - many others had the same issue. In my search for a solution that worked, it was recommended not to use boot2docker and provision a VM oneself; makes sense. This made me realise that I should provision my own Docker VM for my Mac, that I can recreate if anything goes wrong.
