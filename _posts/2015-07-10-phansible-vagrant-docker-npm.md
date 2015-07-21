@@ -8,7 +8,7 @@ alert: DRAFT  / WORK IN PROGRESS
 tags: phansible, php, provisioning, ansible, docker, npm, blacfire
 ---
 
-I have used quite a few provisionings tools in the past from Puppet, Chef, SaltStack etc. But more recently using containers with Docker. Each one has its pros and cons. Docker was working great until I upgraded my boot2docker VM and kept failing even after a re-initialise each time to do with keys - many others had the same issue. In my search for a solution that worked, it was recommended not to use boot2docker and provision a VM oneself; makes sense. This made me realise that I should provision my own Docker VM for my Mac, that I can recreate if anything goes wrong.
+I have used quite a few provisionings tools in the past from Puppet, Chef, SaltStack etc. But more recently using containers with Docker. Each one has its pros and cons. Docker was working great until I upgraded my **boot2docker** VM and kept failing even after a re-initialise each time to do with keys - many others had the same issue. In my search for a solution that worked, it was recommended not to use boot2docker and provision a VM oneself; makes sense. This made me realise that I should provision my own Docker VM for my Mac, that I can recreate if anything goes wrong.
 
 I heard lots of good things about Ansible (and Phansible) from the PHP community and this is one I had not tried. Knowing of Phansible from the community, I thought it would be a good starting point. And it was a great starting point! I got a development environment VM up and running very quickly with the basics: PHP, MySQL, Apache2 (or Nginx). With access to the webserver on `http://192.168.33.99/` and mysql on `192.168.33.99:3306`, elasticsearch on `192.168.33.99:9200` etc. [Dashboard for Phansible](http://pipeline.dashboardhub.io/d/5597eefd804c29.11877860).
 
@@ -64,6 +64,10 @@ Edit `ansible/playbook.yml` comment/uncomment roles collection.
 Add your credentials to `ansible/vars/all.yml` and install the **Blackfire** chrome extension.
 
 ![Profiling with Blackfire](/assets/2015-07-10-phansible-vagrant-docker-npm/blackfire-profiling.mov.gif)
+
+## Debugging your Application / Stepping through code
+
+Coming soon.
 
 ---
 
