@@ -118,7 +118,7 @@ class Controller
 }
 ```
 
-The `services.yml` will look something like this
+The `services.yml` will look something like this:
 
 ```yaml
 services:
@@ -134,5 +134,15 @@ services:
         class: Your\Namespace\Controller\UsersController
         arguments: [@your_app.controller]
 ```
+
+The routing will be like so:
+
+```yaml
+your_app_users:
+    type:     rest
+    resource: your_app.controller.users
+```
+
+---
 
 I hope that helps. Feedback welcome.
