@@ -135,7 +135,7 @@ services:
         arguments: [@your_app.controller]
 ```
 
-The routing will be like so:
+The `routing.yml` will be like so:
 
 ```yaml
 your_app_users:
