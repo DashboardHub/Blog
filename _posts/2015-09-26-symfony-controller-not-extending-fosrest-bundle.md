@@ -15,7 +15,7 @@ Below is a *standard* example of a **Controller**.
 ```php
 <?php
 
-namespace Your\Namespace
+namespace Your\Namespace\Controller
 
 use FOS\RestBundle\Controller\FOSRestController;
 
@@ -37,7 +37,7 @@ To run it as a **Service** is quite easy and **Decouples** it from **Symfony FOS
 ```php
 <?php
 
-namespace Your\Namespace
+namespace Your\Namespace\Controller
 
 class UsersController
 {
@@ -68,7 +68,7 @@ I introduced a new class here called **Controller**, this will *proxy* through t
 ```php
 <?php
 
-namespace Your\Namespace
+namespace Your\Namespace\Controller
 
 use FOS\RestBundle\View\View;
 use FOS\RestBundle\View\ViewHandler;
