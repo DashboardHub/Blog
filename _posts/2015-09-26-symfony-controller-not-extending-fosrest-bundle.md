@@ -47,7 +47,7 @@ class UsersController
     /**
      * @param Controller $controller
      */
-    public function __construct(Controller $controller)
+    public function __construct(ControllerInterface $controller)
     {
         $this->controller = $controller;
     }
@@ -76,7 +76,7 @@ use FOS\RestBundle\View\ViewHandler;
 /**
  * Class Controller
  */
-class Controller
+class Controller implements ControllerInterface
 {
 
     /** @var ViewHandler */
@@ -146,3 +146,5 @@ your_app_users:
 ---
 
 I hope that helps. Feedback welcome.
+
+**Update: Controller Interface added.**
