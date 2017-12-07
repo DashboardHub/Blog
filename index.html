@@ -1,44 +1,27 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>DashboardHub</title>
+	<meta name="description" content="our Delivery Pipeline overview in One Place. If you are delivering a platform or a library, know exactly WHAT, WHEN and WHERE are being built and deployed, by reporting back to your Pipeline Dashboard on DashboardHub.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="http://cdn.dashboardhub.io/favicon.ico" />
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-          {% if post.alert %}<i class="fa fa-chain-broken"></i>{% endif %}
-          {{ post.title }}
-      </a>
-    </h1>
-
-    <p><i>{{ post.summary }}</i></p>
-
-    <span class="post-date">{{ post.date | date_to_string }} by {{ post.author }}</span>
-      {% if post.alert %}
-      <span class="post-alert">{{ post.alert }}</span>
-      {% endif %}
+  <style>
+  .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    width: 75%
+  }
+  </style>
+</head>
+<body>
+  <div>
+    <img class="centered" src="http://cdn.dashboardhub.io/logo-horizontal-std-2567x580.png" />
   </div>
-    <hr />
-  {% endfor %}
-</div>
-
-<a class="twitter-timeline" href="https://twitter.com/dashboardhub" data-widget-id="604558758258307072">Tweets by @dashboardhub</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+</body>
+</html>
